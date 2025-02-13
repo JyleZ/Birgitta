@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&display=swap");
+
+/* BASIC STYLES */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+  background-color: #b8aea4;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #f9f6ee;
+  padding: 3rem;
+}
+
+/* END BASIC STYLES */
+
+/* FONTS */
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "IM Fell English", sans-serif;
+}
+
+.h1 {
+  font-size: 25pt;
+}
+
+/* END FONTS */
+
+/* TOP NAV & HEADER */
+
+.hero-img {
+  background-image: url("images/1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 450px;
+}
+
+.top-nav {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.top-nav > li {
+  padding: 1rem;
+  margin: 0 0.5rem;
+  font-family: "IM Fell English", sans-serif;
+}
+
+.logo-img {
+  width: 100px;
+  height: auto;
+}
+
+/* END TOP NAV & HEADER */
+
+/* SECTION 1 */
+.section-1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.section-text {
+  width: 50%;
+}
+
+.section-img {
+  width: 45%;
+  border-radius: 0 0 240px 240px;
+}
+
+/* END SECTION 1 */
