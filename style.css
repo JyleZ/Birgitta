@@ -17,7 +17,8 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   background-color: #f9f6ee;
-  padding: 0 3rem;
+  padding: 0 3rem 3rem 3rem;
+  /*  box-shadow: 0px 0px 8px #6d6d6d; */
 }
 
 /* END BASIC STYLES */
@@ -60,7 +61,21 @@ h5 {
 .top-nav > li {
   padding: 1rem;
   margin: 0 0.5rem;
+}
+
+.top-nav > li > a {
+  text-decoration: none;
+  font-size: 13pt;
+  color: black;
   font-family: "IM Fell English", sans-serif;
+  transition:
+    text-decoration 0.3s ease-in-out,
+    font-size 0.3s ease-in-out;
+}
+
+.top-nav > li > a:hover {
+  text-decoration: underline;
+  font-size: 16pt;
 }
 
 .logo-img {
@@ -82,9 +97,53 @@ h5 {
   width: 55%;
 }
 
+.section-text > p {
+  padding-bottom: 1rem;
+}
+
 .section-img {
   width: 45%;
+  height: fit-content;
   border-radius: 0 0 240px 240px;
 }
 
+.btn {
+  background-color: #b8aea4;
+  border: 0;
+  display: flex;
+  justify-self: center;
+  margin: 1rem 0;
+  padding: 0.5rem 1.5rem;
+
+  border-radius: 10px;
+}
+
+.btn > a {
+  font-size: 15pt;
+  font-family: "IM Fell English", sans-serif;
+  text-decoration: none;
+  color: #000;
+  transition: font-size 0.3s ease-in-out;
+}
+
+.btn > a:hover {
+  font-size: 18pt;
+}
+
+.birgitta {
+  font-size: 15pt;
+  font-family: "IM Fell English", sans-serif;
+}
+
 /* END SECTION 1 */
+
+/* FOOTER */
+
+footer {
+  padding: 2rem;
+  display: flex;
+  column-gap: 2rem;
+  justify-content: space-around;
+}
+
+/* END FOOTER */
