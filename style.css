@@ -17,7 +17,7 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   background-color: #f9f6ee;
-  padding: 3rem;
+  padding: 0 3rem;
 }
 
 /* END BASIC STYLES */
@@ -33,7 +33,9 @@ h5 {
 }
 
 .h1 {
-  font-size: 25pt;
+  font-size: 30pt;
+  text-align: center;
+  margin-bottom: 1rem;
 }
 
 /* END FONTS */
@@ -72,10 +74,12 @@ h5 {
 .section-1 {
   display: flex;
   flex-direction: row;
+  column-gap: 2rem;
 }
 
 .section-text {
-  width: 50%;
+  padding: 3rem 0 0 0;
+  width: 55%;
 }
 
 .section-img {
