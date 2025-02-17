@@ -177,6 +177,33 @@ h5 {
 
 /* END SECTION 2 */
 
+/* SECTION 3 */
+
+.section-3 {
+  padding: 4rem 0 2rem 0;
+  text-align: center;
+}
+
+.all-products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin: 1.5rem 0;
+}
+
+.product {
+  width: 200px;
+}
+
+.product-img {
+  aspect-ratio: 4/5;
+  object-fit: cover;
+  object-position: 75% 100%;
+  max-width: 100%;
+}
+/* END SECTION 3 */
+
 /* FOOTER */
 
 footer {
