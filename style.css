@@ -265,3 +265,10 @@ footer {
 .mid-title {
   margin: 1rem 0;
 }
+
+.standning {
+  aspect-ratio: 4/5;
+  object-fit: cover;
+  object-position: 75% 100%;
+  max-width: 100%;
+}
