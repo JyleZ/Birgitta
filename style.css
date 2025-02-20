@@ -272,3 +272,18 @@ footer {
   object-position: 75% 100%;
   max-width: 100%;
 }
+
+/* END STYLES ABOUTPAGE */
+
+/* SHOP SECTION */
+.buy-button {
+  font-size: 12pt;
+  font-family: "IM Fell English", sans-serif;
+  text-decoration: none;
+  color: #000;
+  transition: font-size 0.3s ease-in-out;
+}
+
+.buy-button:hover {
+  font-size: 15pt;
+}
