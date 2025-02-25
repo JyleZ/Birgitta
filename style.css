@@ -349,5 +349,13 @@ input[type="submit"]:hover {
 }
 .testimonials,
 p {
-  padding: 0.5rem;
+  padding: 0.5rem 0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-justify {
+  text-align: justify;
 }
