@@ -224,7 +224,7 @@ h5 {
 
 .section4-img {
   width: 45%;
-  height: auto;
+  height: fit-content;
   border-radius: 240px 240px 0 0;
 }
 
