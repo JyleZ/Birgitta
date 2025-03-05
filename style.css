@@ -68,9 +68,7 @@ h5 {
   font-size: 13pt;
   color: black;
   font-family: "IM Fell English", sans-serif;
-  transition:
-    text-decoration 0.3s ease-in-out,
-    font-size 0.3s ease-in-out;
+  transition: text-decoration 0.3s ease-in-out, font-size 0.3s ease-in-out;
 }
 
 .top-nav > li > a:hover {
@@ -374,6 +372,14 @@ p {
   .wrapper {
     width: 100%;
   }
+
+  .hero-img {
+    background-image: url("images/1-opt.webp");
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+  }
+
   .section-2 {
     flex-direction: column;
     align-items: center;
