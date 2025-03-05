@@ -44,7 +44,7 @@ h5 {
 /* TOP NAV & HEADER */
 
 .hero-img {
-  background-image: url("images/1.jpg");
+  background-image: url("images/1-opt.webp");
   background-size: cover;
   background-position: center;
   height: 450px;
@@ -374,7 +374,7 @@ p {
   }
 
   .hero-img {
-    background-image: url("images/1-opt.webp");
+    background-image: url("images/1.webp");
     background-size: cover;
     background-position: center;
     height: 250px;
